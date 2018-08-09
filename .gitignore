@@ -1,5 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+scratch/
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -58,5 +60,3 @@ target/
 
 # PyCharm files
 .idea/
-
-
