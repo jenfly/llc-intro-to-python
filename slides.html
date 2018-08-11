@@ -1183,11 +1183,7 @@ print(number_of_todos)
          import csv
          with open('llc-chapters.csv') as chapters_file:
              chapters_data = csv.DictReader(chapters_file)
-        ```
-
-        Now, we can pull out one row at a time.
-
-        ```
+             # Now we can pull out one row at a time
              chapter = next(chapters_data)
              print(chapter)
         ```
