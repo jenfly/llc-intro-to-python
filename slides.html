@@ -397,13 +397,15 @@
         ```
 
         <br>
-        Remember the `1/2 = 0` example? When Python divides two integers, it rounds the result down to the nearest integer (in this case 0).
+        Remember the `1/2 = 0` example? When Python 2.7 divides two integers, it rounds the result down to the nearest integer (in this case 0).
 
         Integer **types** are whole numbers (no decimals), so to be more precise, `float()` can be used to include decimals.
         ```
         >>> print(float(1) / float(2))
         0.5
         ```
+        <br>
+        *Side note - In Python 3, they changed this behaviour so that if you divide two integers, it will return a float (for example, `1/2` gives a value of `0.5`)*
 
       </script>
     </section>
